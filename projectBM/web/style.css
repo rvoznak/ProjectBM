@@ -1,33 +1,96 @@
-header{
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-direction: column;
-
+section {
+    padding-top: 60px;
+    background: rgb(244,246,245);
+    background: linear-gradient(131deg, rgba(244,246,245,1) 0%, rgba(245,245,243,1) 97%);   
 }
 
-.big_title {
-    font: 600 36px/1.22 "Inter", Helvetica, Arial, serif;
+.head {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer {
+    width: 1000px;
+    color: black; 
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 5px;
+    font: 600 48px/1.22 "Inter", Helvetica, Arial, serif;
     color: #8da5f6;
 }
 
-
-.subtitle {
-    font: 300 20px/1.2 "Inter", Helvetica, Arial, serif;
+.offer_text {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font: 300 28px/1.2 "Inter", Helvetica, Arial, serif;
     color: black;
 }
 
-/* h1, h3 {
-    display: block;
-    font-size: 1em;
-    font-weight: normal;
-    margin: 0;
-    border-width: 0;
-    opacity: 1;
-} */
-
-
-.btnZNK {
-    font: 500 20px/1.2 "Inter", Helvetica, Arial, serif;
+.btn {
+    width: 340px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
-  }
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5;
+    background-color: #fefefe;
+    border-radius: 56px 56px 56px 56px;
+    outline: 1px solid #2d57e5;
+    outline-offset: -1px;
+    font: 600 18px/1.22 "Inter", Helvetica, Arial, serif;
+}
+
+.header_img {
+    display: flex;
+    height: 600px;
+    width: 480px;
+}
+
+.wrapper_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.offer_description {
+    width: 700px;
+    color: black; 
+}
+
+.h1_description{
+    font: 600 27px/1.22 "Inter", Helvetica, Arial, serif;
+    color: #8da5f6;
+    width: 605px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.first_class_text{
+    width: 605px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
