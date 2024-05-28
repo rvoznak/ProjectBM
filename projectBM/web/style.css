@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+
+}
+
+.big_title {
+    font: 600 36px/1.22 "Inter", Helvetica, Arial, serif;
+    color: #8da5f6;
+}
+
+
+.subtitle {
+    font: 300 20px/1.2 "Inter", Helvetica, Arial, serif;
+    color: black;
+}
+
+/* h1, h3 {
+    display: block;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    border-width: 0;
+    opacity: 1;
+} */
+
+
+.btnZNK {
+    font: 500 20px/1.2 "Inter", Helvetica, Arial, serif;
+    color: black;
+  }
