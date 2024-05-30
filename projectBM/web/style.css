@@ -1,4 +1,4 @@
-section {
+.heade {
     padding-top: 60px;
     background: rgb(244,246,245);
     background: linear-gradient(131deg, rgba(244,246,245,1) 0%, rgba(245,245,243,1) 97%);   
@@ -93,4 +93,131 @@ section {
     line-height: 24px;
 }
 
+.description_text{
+    font: 300 20px/1.2 "Inter", Helvetica, Arial, serif;
+}
 
+
+.advantages_title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 44px;
+    font: 500 36px/1.2 "Inter", Helvetica, Arial, serif;
+}
+
+.advantages_main_block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages_blocks{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 605px;
+    height: 77px;
+    background: #FFFFFF;
+    border: 3px solid #8DA5F6;
+    border-radius: 30px;
+    font: 600 18px/1.22 "Inter", Helvetica, Arial, serif;
+    color: #8da5f6;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5;
+    margin-bottom: 30px;
+}
+.blocks{
+    width: 420px;
+}
+
+/* .treug {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    transform: rotate(15.95deg);
+    top: 1200px;
+    left: 0;
+} */
+
+
+.pay {
+    /* height: 70%;
+    width: 80%; */
+    margin-top: 50px;
+    padding-top: 60px;
+    background: rgb(244,246,245);
+    background: linear-gradient(131deg, rgba(244,246,245,1) 0%, rgba(141,165,246,1) 0%); 
+    border-radius: 70px;
+}
+
+.pay_wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pay_offer {
+    width: 1000px;
+    color: black;
+}
+
+.pay_text {
+    width: 640px;
+    height: 116px;
+    font: 400 26px/1.22 "Inter", Helvetica, Arial, serif;
+    color: #FFFFFF;
+    line-height: 29px;
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.woman_with_likes {
+    display: flex;
+    height: 500px;
+    width: 400px;
+}
+
+.price{
+    display: flex;
+    justify-content: start;
+    align-content: start;
+}
+
+.real_price{
+    font: 500 48px/1.22 "Inter", Helvetica, Arial, serif;
+    color: #FFFFFF;
+    margin-top: 120px;
+    width: 160px;
+}
+.minus {
+    font: 500 38px/1.22 "Inter", Helvetica, Arial, serif;
+    color: #636363;
+    margin-top: 130px;
+}
+
+.pay_btn {
+    margin-top: 50px;
+    width: 920px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5;
+    background-color: #fefefe;
+    border-radius: 56px 56px 56px 56px;
+    outline: 1px solid #2d57e5;
+    outline-offset: -1px;
+    font: 600 18px/1.22 "Inter", Helvetica, Arial, serif;
+}
