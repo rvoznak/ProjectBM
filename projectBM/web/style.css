@@ -221,3 +221,162 @@
     outline-offset: -1px;
     font: 600 18px/1.22 "Inter", Helvetica, Arial, serif;
 }
+
+.about_me {
+    margin-top: 100px;
+    padding-top: 60px;
+}
+
+.am_title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 5px;
+    font: 600 36px/1.22 "Inter", Helvetica, Arial, serif;
+    color: #8da5f6;
+}
+
+.am_offer_text {
+    height: 150px;
+    font: 400 24px/1.22 "Inter", Helvetica, Arial, serif;
+    width: 800px;
+}
+
+.points {
+    margin-top: 50px;
+}
+
+.my_face_with_glasses {
+    border-radius: 56px;
+}
+
+.forma {
+    margin-top: 100px;
+}
+
+.form_title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font: 500 36px/1.2 "Inter", Helvetica, Arial, serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_cells {
+    width: 500px;
+    height: 50px;
+    margin-bottom: 35px;
+    border-radius: 50px;
+    outline: 1px solid rgb(172, 165, 165);
+    font: 200 20px "Inter", Helvetica, Arial, serif;
+    font-style: italic;
+    outline-offset: -1px;
+}
+
+.form_btn {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5;
+    background-color: #fefefe;
+    border-radius: 50px;
+    outline: 1px solid #8da5f6;
+    outline-offset: -1px;
+    font: 600 18px/1.22 "Inter", Helvetica, Arial, serif;
+    margin-bottom: 35px;
+}
+
+.text_form {
+    width: 604px;
+    height: 48px;
+    line-height: 24px;
+    text-align: center;
+    font: 200 20px "Inter", Helvetica, Arial, normal;
+}
+
+
+.question {
+    margin-top: 100px;
+    background-color: #8DA5F6;
+    border-radius: 50px;
+}
+
+.question_text {
+    color: #FFFFFF;
+    font: 500 54px "Inter", Helvetica, Arial, normal;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.question_offer {
+    width: 1000px;
+}
+
+.form_btn_1 {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 287px;
+    height: 56px;
+    background: #000000;
+    border-radius: 56px;
+    font: 300 20px "Inter", Helvetica, Arial, normal;
+}
+
+.form_call {
+    width: 287px;
+    height: 56px;
+    margin-bottom: 10px;
+    border-radius: 56px;
+    outline: 0.5px solid black;
+    font: 200 20px "Inter", Helvetica, Arial, serif;
+    font-style: italic;
+    outline-offset: -1px;
+
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.end {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 288px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding: 0px;
+    gap: 24px;
+    color: #000000;
+}
+
+.pic {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
