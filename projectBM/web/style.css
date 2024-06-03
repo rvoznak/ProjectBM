@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .heade {
     padding-top: 60px;
     background: rgb(244,246,245);
@@ -8,6 +13,12 @@
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.head_1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;    
 }
 
 .wrapper {
@@ -379,4 +390,724 @@
     display: flex;
     justify-content: center ;
     align-items: center;
+}
+
+/* Adaptation */
+
+@media screen and (max-width: 1200px) 
+{
+
+    .head {
+        height: 120px;
+    }
+
+    .heade {
+        padding-top: 0%;
+    }
+
+    .woman_with_n {
+        width: 500px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .offer {
+        width: 600px;
+        margin-left: 25px;
+    }
+
+    .am_offer_text {
+        font-size: 22px;
+        width: 600px;
+    }
+
+    .am_title {
+        font-size: 34px;
+    }
+
+    .my_face_with_glasses {
+        width: 450px;
+        height: 550px;
+        margin-right: 25px;
+        margin-bottom: 55px;
+    }
+
+    .about_me {
+        padding: 0%;
+        margin-top: 50px;
+    }
+
+    .wrapper {
+        justify-content: space-between;
+    }
+
+    .forma {
+        margin-top: 0;
+    }
+
+    .form_title {
+        margin-top: 0%;
+        margin-bottom: 35px;
+        font-size: 34px;
+    }
+
+    .form_cells {
+        width: 450px;
+    }
+
+    .form_btn {
+        width: 458px;
+        height: 56px;
+    }
+
+    .pay_wrapper {
+        justify-content: space-between;
+    }
+
+    .pay_offer {
+        width: 550px;
+        margin-left: 25px;
+    }
+
+    .pay_text {
+        font-size: 22px;
+        width: 550px;    
+    }
+    
+    .pay_btn {
+        width: 550px;
+    }
+
+    .woman_with_likes {
+        margin-right: 65px;    
+    }
+
+    .real_price {
+        margin-top: 60px;
+    }
+
+    .minus {
+        margin-top: 68px;
+    }
+
+    .pay {
+        margin: 50px 3px;
+    }
+
+    .question {
+        margin: 70px 3px 50px 3px;
+        height: 500px;    
+    }
+
+    .question_text {
+        font-size: 40px;
+    }
+
+    .question_img1 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .question_offer {
+        margin-left: 25px;
+    }
+
+    .end {
+        margin-top: 0%;
+        margin-bottom: 6px;
+        font-size: 28px;
+    }
+
+    .advantages_title {
+        font-size: 34px;
+        margin-top: 0px;
+    }
+
+    .advantages_blocks {
+        width: 550px;
+    }
+
+    .wrapper_description {
+        justify-content: space-between;
+    }
+
+    .h1_description {
+        margin-left: 25px;
+        margin-bottom: 0%;
+        font-size: 34px;
+        width: 550px;
+    }
+
+    .description_text {
+        margin-right: 25px;
+        margin-bottom: 0%;
+    }
+
+    .points .am_offer_text:first-child {
+        height: 120px;
+    }
+
+    .points .am_offer_text:nth-child(2) {
+        height: 60px;
+    }
+
+    .points .am_offer_text:nth-child(3) {
+        height: 60px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (max-width: 992px) 
+{
+    .head {
+        height: 100px;
+    }
+    
+    .offer {
+        width: 500px;    
+    }
+
+    .am_title {
+        font-size: 32px;
+    }
+
+    .am_offer_text {
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .heade {
+        height: 480px;
+    }
+
+    .my_face_with_glasses {
+        width: 350px;
+        height: 450px;
+        margin-bottom: 55px;
+    }
+
+    .woman_with_likes {
+        margin: 0%;
+        margin-right: 65px;
+        height: 450px;
+        width: 350px;
+    }
+
+    .woman_with_n {
+        height: 480px;
+        width: 450px;
+        margin-left: 25px;
+    }
+
+    .title {
+        width: 450px;
+        font-size: 36px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .offer_text {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+
+    .h1_description {
+        font-size: 30px;
+        margin-top: 15px;
+        width: 450px;
+    }
+
+    .description_text {
+        font-size: 15px;
+    }
+
+    .advantages_title {
+        font-size: 32px;
+    }
+    
+    .advantages_blocks {
+        width: 500px;
+    }
+    
+    .arrow {
+        margin-right: 2px;
+    }
+
+    .pay_offer {
+        width: 490px;
+    }
+
+    .pay_wrapper {
+        height: 450px;
+    }
+
+    .pay_text {
+        width: 490px;
+        font-size: 20px;
+    }
+
+    .pay_btn {
+        width: 490px;
+    }
+
+    .real_price {
+        margin-top: 30px;
+    }
+
+    .minus {
+        margin-top: 40px;
+    }
+
+    .am_title {
+        font-size: 30px;
+    }
+
+    .about_me {
+        height: 520px;
+    }
+
+    .form_title {
+        font-size: 32px;
+    }
+
+    .form_cells {
+        width: 400px;
+    }
+
+    .form_btn {
+        width: 408px;
+    }
+
+    .text_form {
+        font-size: 18px;
+        width: 550px;
+    }
+
+    .question_img1 {
+        width: 400px;
+        height: 400px;
+    }
+
+    .question_text {
+        font-size: 34px;
+    }
+
+    .question {
+        margin-top: 50px;
+        height: 400px;
+    }
+
+    .form_call {
+        width: 250px;
+        height: 50px;
+    }
+
+    .form_btn_1 {
+        width: 258px;
+    }
+
+    .end {
+        font-size: 26px;
+    }
+
+    .points .am_offer_text:first-child {
+        height: 130px;
+    }
+
+    .points .am_offer_text:nth-child(2) {
+        height: 80px;
+    }
+
+    .points .am_offer_text:nth-child(3) {
+        height: 60px;
+    }
+
+    .btn {
+        margin-bottom: 70px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 768px) 
+{
+    .head {
+        height: 80px;
+    }
+
+    .heade {
+        height: 400px;
+    }
+
+    .header_img {
+        height: 400px;
+        margin-bottom: 200px;
+    }
+
+    .offer {
+        width: 400px;
+    }
+
+    .title {
+        font-size: 32px;
+        margin-top: 70px;
+    }
+
+    .btn {
+        width: 250px;
+        height: 50px;
+    }
+
+    .offer_text {
+        font-size: 24px;
+    }
+
+    .woman_with_n {
+        margin-right: 0px;
+        width: 340px;
+        height: 400px;
+    }
+
+    .h1_description {
+        width: 400px;
+        font-size: 28px;
+        margin-left: 15px;
+    }
+
+    .pay_offer {
+        width: 300px;
+    }
+
+    .pay_text {
+        margin-top: 40px;
+        width: 350px;
+        font-size: 16px;
+    }
+
+    .pay_btn {
+        margin-top: 48px;
+        width: 300px;
+    }
+
+    .real_price {
+        font-size: 46px;
+        margin-top: 50px;
+    }
+
+    .minus {
+        margin-top: 60px;
+    }
+
+    .woman_with_likes {
+        margin-right: 65px;
+    }
+    
+    .pay {
+        padding: 0%;
+    }
+
+    .description_text {
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+
+    .advantages_title {
+        font-size: 30px;
+    }
+
+    .advantages_blocks {
+        width: 450px;
+        height: 60px;
+    }
+
+    .arrow {
+        margin-right: 8px;
+    }
+    
+    .am_title {
+        font-size: 25px;
+        margin-bottom: 0%;
+    }
+
+    .am_offer_text {
+        width: 350px;
+        font-size: 16px;
+    }
+
+    li {
+        line-height: 10px;
+    }
+
+    .offer {
+        height: 600px;
+    }
+
+    .points {
+        height: 400px;
+    }
+
+    .points .am_offer_text:first-child {
+        height: 140px;
+    }
+
+    .points .am_offer_text:nth-child(2) {
+        height: 80px;
+    }
+
+    .points .am_offer_text:nth-child(3) {
+        height: 80px;
+    }
+
+    .my_face_with_glasses {
+        width: 350px;
+    }
+
+    .about_me {
+        height: 500px;
+        margin-bottom: 55px;
+    }
+    
+    .form_title {
+        font-size: 30px;
+    }
+
+    .form_cells {
+        width: 350px;
+        height: 45px;
+    }
+
+    .form_btn {
+        width: 358px;
+        height: 51px;
+    }
+
+    .text_form {
+        font-size: 16px;
+    }
+
+    .question_text {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .form_call {
+        width: 200px;
+        height: 45px;
+    }
+
+    .form_btn_1 {
+        width: 208px;
+        height: 51px;
+    }
+
+    .question_img1 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .question {
+        margin-top: 50px;
+        height: 350px;
+    }
+
+    .end {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) 
+{
+    .head {
+        height: 60px;
+    }
+
+    .heade {
+        height: 380px;
+    }
+    
+    .offer {
+        width: 230px;
+    }
+
+    .title {
+        width: 230px;
+        font-size: 28px;
+    }
+
+    .offer_text {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 200px;
+    }
+
+    .header_img {
+        width: 320px;
+    }
+
+    .woman_with_n {
+        margin-left: 0%;
+        width: 320px;
+        height: 380px;
+    }
+
+    .h1_description {
+        font-size: 24px;
+        width: 350px;
+    }
+
+    .description_text {
+        font-size: 12px;
+    }
+
+    .wrapper_description {
+        height: 150px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .advantages_title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .advantages_blocks {
+        width: 350px;
+    }
+
+    .arrow {
+        width: 80px;
+    }
+
+    .pay_text {
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .pay_offer {
+        width: 200px;
+    }
+
+    .real_price {
+        font-size: 36px;
+        width: 120px;
+        margin-top: 90px;
+    }
+    
+    .minus {
+        font-size: 25px;
+        margin-top: 100px;
+    }
+
+    .pay_btn {
+        width: 150px;
+        margin-top: 20px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .woman_with_likes {
+        margin-right: 65px;
+        width: 270px;
+        height: 380px;
+    }
+
+    .pay {
+        height: 380px;
+    }
+
+    .am_title {
+        font-size: 22px;
+    }
+
+    .am_offer_text {
+        font-size: 14px;
+        width: 230px;
+    }
+
+    .points .am_offer_text:nth-child(2) {
+        height: 55px;
+    }
+
+    .points .am_offer_text:nth-child(3) {
+        height: 55px;
+    }
+
+    .my_face_with_glasses {
+        width: 300px;
+        height: 400px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .about_me {
+        height: 480px;
+    }
+
+    .form_title {
+        font-size: 28px;
+    }
+
+    .form_cells {
+        width: 300px;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+
+    .form_btn {
+        width: 308px;
+        height: 46px;
+    }
+
+    .text_form {
+        font-size: 14px;
+        width: 450px;
+    }
+
+    .question_text {
+        font-size: 24px;
+        width: 250px;
+        margin-bottom: 25px;
+    }
+
+    .question_img1 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .form_call {
+        width: 172px;
+        height: 34px;
+    }
+
+    .form_btn_1 {
+        width: 180px;
+        height: 40px;
+        font-size: 18px;    
+    }
+
+    .question {
+        height: 250px;
+    }
+
+    .end {
+        font-size: 20px;
+    }
+
+    .wh {
+        width: 28px;
+        height: 28px;    
+    }
+
+    .tg {
+        width: 28px;
+        height: 28px;     
+    }
 }
