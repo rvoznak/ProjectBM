@@ -97,9 +97,9 @@
         <div class="container">
             <h2 class="form_title">Получите поддержку от Первого <br> класса в подготовке к ОГЭ и <br> ЕГЭ по  математике</h2>
             <form class="form" action="#" method="post">
-                <input class="form_cells" type="text" placeholder=" Имя" required pattern="[A-Za-zА-Я-а-яЁё]">
-                <input class="form_cells" type="tel" placeholder=" Номер телефона" required>
-                <input class="form_cells" type="email" placeholder=" Email" required>
+                <div><input class="form_cells" id="name" type="text" placeholder=" Имя" required onblur="checkName()"><span class="check" id="check_name"></span></div>
+                <div><input class="form_cells" id="tel" type="tel" placeholder=" Номер телефона" required onblur="checkTel()"><span class="check" id="check_tel"></span></div>
+                <div><input class="form_cells" id="email" type="email" placeholder=" Email" required onblur="checkEmail()"><span class="check" id="check_email"></span></div>
                 <button type="submit" class="form_btn">Записаться на курс</button>
                 <div class="text_form">Оставьте заявку сейчас и начните успешно готовиться к ОГЭ и ЕГЭ по математике с Первым классом!</div>
             </form>
@@ -109,9 +109,9 @@
         <div class="wrapper">
             <div class="question_offer">
                 <h2 class="question_text">Остались вопросы? Мы готовы на них ответить!</h2>
-                <form class="form1" action="#" method="post">
-                    <input class="form_call" type="tel" placeholder=" Телефон" required>
-                    <button type="submit" class="form_btn_1">Узнать подробнее</button>
+                <form class="form1" id="phoneForm" action="#" method="post">
+                    <input class="form_call" id="phoneInput" type="tel" placeholder=" Телефон" required>
+                    <button type="submit" id="callButton" class="form_btn_1">Узнать подробнее</button>
                 </form>
             </div>
             <div class="pay_img">
@@ -128,5 +128,6 @@
             <img class="tg" src="./assets/Vector.png">
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
