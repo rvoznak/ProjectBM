@@ -1,3 +1,7 @@
+html {  
+    scroll-behavior: smooth;  
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -49,6 +53,22 @@ body {
     color: black;
 }
 
+.pulsate {
+    animation: pulse 1s infinite;
+  }
+  
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
 .btn {
     width: 340px;
     height: 60px;
@@ -65,6 +85,7 @@ body {
     outline: 1px solid #2d57e5;
     outline-offset: -1px;
     font: 600 18px/1.22 "Inter", Helvetica, Arial, serif;
+    cursor: pointer;
 }
 
 .header_img {
@@ -204,10 +225,29 @@ body {
 
 .real_price{
     font: 500 48px/1.22 "Inter", Helvetica, Arial, serif;
-    color: #FFFFFF;
     margin-top: 120px;
     width: 160px;
+    color: white;
+    background: rgb(69,128,193);
+    background: linear-gradient(266deg, rgba(69,128,193,0.9332107843137255) 0%, rgb(25, 47, 100) 73%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+      }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .minus {
     font: 500 38px/1.22 "Inter", Helvetica, Arial, serif;
     color: #636363;
@@ -308,6 +348,11 @@ body {
     outline-offset: -1px;
     font: 600 18px/1.22 "Inter", Helvetica, Arial, serif;
     margin-bottom: 35px;
+}
+
+.form_btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .text_form {
